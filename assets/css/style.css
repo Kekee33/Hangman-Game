@@ -1,3 +1,10 @@
 body {
-	background: #5D4384;
+	background: #85A3BD;
+}
+
+.jumbotron {
+	background: #EEEEEE;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+		
 }
