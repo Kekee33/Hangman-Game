@@ -3,25 +3,21 @@
 //array of list of words
 
 var flowers = ["daisy", "lilac", "lotus", "pansy", "peony", "tulip", "viola", "bloom"]
-var randomWord = Math.floor(Math.random() * flowers.length);
+var rw = Math.floor(Math.random() * flowers.length);
+
 
 //alphabet
 var alphabet= ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n",
  "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
-
-
 $(document).on("click"){
-	
+
 }
 
-
-
-
-
-
-
 //retrieve user guesses
+for (var i = 0; i != flowers.length; i++){
+		if (flowers.indexOf(flowers[i])
+}
 
 //correct letters display on screen
 
