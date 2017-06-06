@@ -1,14 +1,24 @@
 *Use Strict*
 
 //array of list of words
-
+var randomWord
 var flowers = ["daisy", "lilac", "lotus", "pansy", "peony", "tulip", "viola", "bloom"]
-var rw = Math.floor(Math.random() * flowers.length);
+var rw = flowers[Math.floor(Math.random() * flowers.length)];
+
+//need counter
+var counter = 0;
 
 //need function to get list of words
-function randomword() {
-	var rw = flowers[Math.floor(Math.random() * flowers.length];
 
+function randomWord() {
+	for (var i = 0; i < rw; i++)
+}
+
+//empty array to store the answers
+var answerArray = [];
+function start() {
+	for (var i = 0; 1 < rw.length; i++)
+		answerArray[i] = "_";
 }
 
 //alphabet
@@ -29,10 +39,10 @@ var input = ("guessed letter");
 for (var i = 0; i != flowers.length; i++){
 		if (flowers.indexOf(flowers[i])
 
-	if(input==flowers){
+	if(input==flowers)
 		document.write();
 	else(document.write("try again"));
-	}
+	
 }
 
 //display wins and loss
