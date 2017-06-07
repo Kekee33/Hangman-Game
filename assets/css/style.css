@@ -7,3 +7,40 @@ body {
 	margin: 10px 0px 10px 0px;
 	text-align: center;		
 }
+
+.btn-group {
+	position: relative;
+}
+
+.letter {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    padding: 2px;
+    float: left;
+    margin: 2px;
+  }
+
+  .letter-button-color {
+    color: darkcyan;
+  }
+
+  #display {
+    margin-top: 78px;
+    height: 200px;
+    width: 220px;
+    margin-left: 40px;
+  }
+
+  #buttons {
+    padding-top: 60px;
+  }
+
+  #clear {
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+    border-style: solid;
+    width: 100px;
+  }
+
