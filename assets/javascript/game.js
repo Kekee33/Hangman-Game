@@ -1,7 +1,7 @@
-*Use Strict*
+"use strict"
 
 //alphabet
-var alphabet= ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n",
+var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n",
  "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
 function letters() {
@@ -17,20 +17,20 @@ var flowers = ["daisy", "lilac", "lotus", "pansy", "peony", "tulip", "viola", "b
 var rw = flowers[Math.floor(Math.random() * flowers.length)];
 
 //need counter
-var counter = 0;
+//var counter = 0;
 
 //need function to get list of words
 
 //function randomWord() {
-	for (var i = 0; i < rw; i++)
-}
+	//for (var i = 0; i < rw; i++)
+
 
 //empty array to store the answers
 //var answerArray = [];
 //function start() {
 	//for (var i = 0; 1 < rw.length; i++)
 		//answerArray[i] = "_";
-}
+
 
 
 //create event when key is pressed and display on screen
@@ -38,7 +38,7 @@ var counter = 0;
 
 //function keyRelease(event){
 	//var alphabet = document.write(event.key);
-}
+
 
 //wrong letters result in man on the gallow 
 
@@ -51,7 +51,7 @@ var counter = 0;
 		//document.write();
 	//else(document.write("try again"));
 	
-}
+
 
 //display wins and loss
 
