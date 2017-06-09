@@ -1,5 +1,5 @@
 body {
-	background: #85A3BD;
+	
 }
 
 .jumbotron {
@@ -8,16 +8,24 @@ body {
 	text-align: center;		
 }
 
+.panel {
+  width: 450px;
+  position: absolute;
+  top: 350px;
+  left: 800px;
+  
+}
+
 .btnGroup {
 	position: relative;
 }
 
 .letter {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-style: solid;
     padding: 2px;
-    float: left;
+    
     margin: 2px;
   }
 

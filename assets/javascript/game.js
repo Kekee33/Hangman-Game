@@ -1,6 +1,6 @@
 "use strict"
 
-
+$(document).ready(function() {
 //alphabet
 var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n",
  "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
@@ -10,11 +10,12 @@ for (var i = 0; i < alphabet.length; i++) {
 	
 	var letterBtn = $("<button>");
 
-	letterBtn.addClass("letter-button letter letter-button-color");
-	letterBtn.attr("data-letter", alphabet[i]);
-	letterBtn.text(alphabet[i]);
-	$("#buttons").append(letterBtn);
-}
+	//letterBtn.addClass("letter-button letter letter-button-color");
+	//letterBtn.attr("data-letter", alphabet[i]);
+	//letterBtn.text(alphabet[i]);
+	//$("#buttons").append(letterBtn);
+//}
+//})
 
  $(".letter-button").on("click", function() {
 
@@ -26,29 +27,34 @@ for (var i = 0; i < alphabet.length; i++) {
 });
 
   $("clear").on("click", function() {
-  $("#display").empty();
-  });
+  	$("#display").empty();
+});
+  
+
 
  
-//function letters() {
-	//document.write(alphabet);
-//}
+function letters() {
+	document.write(alphabet);
+}
 
 //letters();
 //document.write(alphabet);
 
 //array of list of words
 //var randomWord
-//var flowers = ["daisy", "lilac", "lotus", "pansy", "peony", "tulip", "viola", "bloom"]
-//var rw = flowers[Math.floor(Math.random() * flowers.length)];
+var flowers = ["daisy", "lilac", "lotus", "pansy", "peony", "tulip", "viola", "bloom"]
+var rw = flowers[Math.floor(Math.random() * flowers.length)];
+function randomWord() {
+	for (var i = 0; i < rw; i++)
 
+	
+	
 //need counter
 //var counter = 0;
 
 //need function to get list of words
 
-//function randomWord() {
-	//for (var i = 0; i < rw; i++)
+
 
 
 //empty array to store the answers
