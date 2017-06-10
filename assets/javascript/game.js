@@ -3,7 +3,8 @@
 $(document).ready(function() {
 
             
-
+alert("Let's Play!");
+alert("Pick a letter");
 
         /* -------------------------------------
             I commented out the (letter).on('click'),
@@ -73,47 +74,59 @@ $(document).ready(function() {
                 var rw = flowers[Math.floor(Math.random() * flowers.length)];
                 var res = rw.split("");
                 console.log("the random word is", rw);
+                
                 console.log("the random word contains the letters", res);
 
-
+                    
                var numOfWords = 8;
                var letterSelected = ("");
                var displayWord = ("_");
                              
+                 var answerArray =[i]
+                 for (vari=0 i < rw.length; i++) {
+                 answerArray[i]="_";
+                // }
 
-                function displayGuesses(){
-                for (i=0; i < rw.length; i++) {
-                if (guessed.indexOf(rw.charAt(i)) !== -1) 
-                pattern += "_"
-            }
+               
+                //function displayWord(){
+                //     var
+                //     $(#"rightGuesses")
+                //      $(."letter")
+                // }
+
+            //     function displayGuesses(){
+            //     for (i=0; i < rw.length; i++) {
+            //     if (guessed.indexOf(rw.charAt(i)) !== -1) 
+            //      pattern += "_"
+            // // }
             
-            }
+            // }
             
             
-            function wrongAnsw() {
-                if(rw.indexOf()==-1) return false
+            // function wrongAnsw() {
+            //     if(rw.indexOf()==-1) return false
                     
-            }
+            // }
 
-            function YouWin() {
-                for(i=0; i<toGuess.length; ++i) {
-                    if(rw.indexOf(toGuess.charAt(i))== -1) return
-                }
-            return true
-            }
+            // function YouWin() {
+            //     for(i=0; i<toGuess.length; ++i) {
+            //         if(rw.indexOf(toGuess.charAt(i))== -1) return
+            //     }
+            // return true
+            // }
             
-            function predict(){
-                if(rw.indexOf(j)== -1) guessed =  + guessed
-                if(wrongAnsw(j)) ++guesses
-                displayGuesses()
-                displayGuessed()
-                if(guesses >= max){
-                    alert("You Lose!")
-                    Restart()
-                }
+            // function predict(){
+            //     if(rw.indexOf(j)== -1) guessed =  + guessed
+            //     if(wrongAnsw(j)) ++guesses
+            //     displayGuesses()
+            //     displayGuessed()
+            //     if(guesses >= max){
+            //         alert("You Lose!")
+            //         Restart()
+            //     }
 
 
-            }
+            });
 
 
                 
@@ -165,5 +178,5 @@ $(document).ready(function() {
 
 
                 //display wins and loss
-            });
+            ;
        
