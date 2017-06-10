@@ -1,11 +1,12 @@
 body {
-	
+  background: 
 }
 
 .jumbotron {
-	background: #EEEEEE;
-	margin: 10px 0px 10px 0px;
-	text-align: center;		
+  background: #EEEEEE;
+  opacity: 0.5;
+  margin: 10px 0px 10px 0px;
+  text-align: center;   
 }
 
 .panel {
@@ -13,11 +14,11 @@ body {
   position: absolute;
   top: 350px;
   left: 800px;
-  
+
 }
 
 .btnGroup {
-	position: relative;
+  position: relative;
 }
 
 .letter {
@@ -50,5 +51,13 @@ body {
     color: black;
     border-style: solid;
     width: 100px;
+    background: #FFFFFF;
+  }
+
+  #gallow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px
   }
 
