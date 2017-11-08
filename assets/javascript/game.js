@@ -78,14 +78,14 @@ alert("Pick a letter");
                 console.log("the random word contains the letters", res);
 
                     
-               var numOfWords = 8;
-               var letterSelected = ("");
-               var displayWord = ("_");
+               // var numOfWords = 8;
+               // var letterSelected = ("");
+               // var displayWord = ("_");
                              
-                 var answerArray =[i]
-                 for (vari=0 i < rw.length; i++) {
-                 answerArray[i]="_";
-                // }
+               //   var answerArray =[i]
+               //   for (vari=0 i < rw.length; i++) {
+               //   answerArray[i]="_";
+               //  // }
 
                
                 //function displayWord(){
